@@ -6,3 +6,7 @@ alt + insert : 파일 생성
 ctrl + space : 자동 완성
 ctrl + tab : 메뉴 전환 팝업오픈
 alt + enter : 코드에서 패키지 import 하기
+ctrl + shift + n : 파일 이름 검색 창
+ctrl + alt + s : 설정 창
+shift 두번 입력 : all 검색 창
+ctrl + w : 확장되어 가는 선택
