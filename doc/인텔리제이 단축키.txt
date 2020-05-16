@@ -1,0 +1,8 @@
+ctrl + k : 깃 커밋 창
+ctrl + shift + k : 깃 푸쉬 창
+ctrl + shift + a : Action 검색 창
+ctrl + y : 행 삭제
+alt + insert : 파일 생성
+ctrl + space : 자동 완성
+ctrl + tab : 메뉴 전환 팝업오픈
+alt + enter : 코드에서 패키지 import 하기
