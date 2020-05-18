@@ -13,3 +13,5 @@ ctrl + w : 확장되어 가는 선택
 파일을 선택하고 shift + f6 : rename
 ctrl + alt + L : 코드 포맷터
 shift + esc : 터미널 창 숨기기
+ctrl + shift + 위, 아래 방향키 : 현재 라인 위, 아래 줄과 바꾸기(위, 아래로 이동하기)
+ctrl + shift + f : 전체에서 코드 검색
