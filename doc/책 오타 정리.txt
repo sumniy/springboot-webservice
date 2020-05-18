@@ -12,3 +12,5 @@
 오타는 아니지만 4장에서 delete 기능은 테스트 코드를 작성할 수 없나?
 
 199p 이미지 - 바로전에 WebConfig 클래스를 작성했는데 WebConfig가 포함되지 않은 이미지가 첨부. 포함되면 좋을 듯
+
+276p character_set_server도 추가해야할듯 , 설정안하니 collation_server 'utf8mb4_general_ci' is not valid for character_set 'latin1' 에러발생
