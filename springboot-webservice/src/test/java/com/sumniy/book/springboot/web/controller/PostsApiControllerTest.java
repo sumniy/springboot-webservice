@@ -100,4 +100,6 @@ public class PostsApiControllerTest {
 
 
     }
+
+    // 삭제 테스트는 어떻게 작성해야하나?
 }

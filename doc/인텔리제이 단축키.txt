@@ -12,3 +12,4 @@ shift 두번 입력 : all 검색 창
 ctrl + w : 확장되어 가는 선택
 파일을 선택하고 shift + f6 : rename
 ctrl + alt + L : 코드 포맷터
+shift + esc : 터미널 창 숨기기
