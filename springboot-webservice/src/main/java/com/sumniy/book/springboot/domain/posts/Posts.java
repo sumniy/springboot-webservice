@@ -1,5 +1,6 @@
 package com.sumniy.book.springboot.domain.posts;
 
+import com.sumniy.book.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     // @Entity : 실제 DB의 테이블과 링크될 클래스임을 나타냄
     // @Id : PK 필드
@@ -37,5 +38,10 @@ public class Posts {
         this. title = title;
         this.content = content;
         this.author = author;
+    }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
     }
 }

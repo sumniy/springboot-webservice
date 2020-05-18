@@ -11,3 +11,4 @@ ctrl + alt + s : 설정 창
 shift 두번 입력 : all 검색 창
 ctrl + w : 확장되어 가는 선택
 파일을 선택하고 shift + f6 : rename
+ctrl + alt + L : 코드 포맷터
