@@ -3,8 +3,10 @@ package com.sumniy.book.springboot.config.auth.dto;
 import com.sumniy.book.springboot.domain.user.User;
 import lombok.Getter;
 
+import java.io.Serializable;
+
 @Getter
-public class SessionUser {
+public class SessionUser implements Serializable {
 
 
     private String name;

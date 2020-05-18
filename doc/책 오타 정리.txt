@@ -7,4 +7,8 @@
 
 156p 그림에서는 테스트2 인데 글 내용은 타이틀2 라고 언급함
 168p [사용자 인증 정보]는 최하단이 아닌 중단쯤에 위치함
-187p toEntity()의 설명에서 "OAuthAttributes 클래스 생성이 끝났으면 같은 패키지에 SessionUser 클래스를 생성합니다." 는 toEntity의 설명이 아니라 본문에 들어갔어야할 문장인듯
+187p toEntity()의 설명에서 "OAuthAttributes 클래스 생성이 끝났으면 같은 패키지에 SessionUser 클래스를 생성합니다." 는 toEntity의 설명이 아니라 본문에 들어갔어야할 문장인듯 
+
+오타는 아니지만 4장에서 delete 기능은 테스트 코드를 작성할 수 없나?
+
+199p 이미지 - 바로전에 WebConfig 클래스를 작성했는데 WebConfig가 포함되지 않은 이미지가 첨부. 포함되면 좋을 듯
