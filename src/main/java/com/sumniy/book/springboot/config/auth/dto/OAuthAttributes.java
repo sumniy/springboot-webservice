@@ -9,7 +9,6 @@ import java.util.Map;
 
 @Getter
 public class OAuthAttributes {
-
     private Map<String, Object> attributes;
     private String nameAttributeKey;
     private String name;
@@ -25,9 +24,8 @@ public class OAuthAttributes {
         this.picture = picture;
     }
 
-    // OAuth2User에서 반환하는 사용자 정보는 Map이기 때문에 값 하나하나를 변환해야한다.
-    public static OAuthAttributes of(String registraionId, String userNameAttributeName, Map<String, Object> attributes) {
-        if("naver".equals(registraionId)) {
+    public static OAuthAttributes of(String registrationId, String userNameAttributeName, Map<String, Object> attributes) {
+        if("naver".equals(registrationId)) {
             return ofNaver("id", attributes);
         }
 
@@ -56,14 +54,12 @@ public class OAuthAttributes {
                 .build();
     }
 
-    // User Entity를 생성. OAuthAttributes에서 엔티티를 생성하는 시점은 처음 가입할 때이다.
-    // 가입할 때의 기본 권한을 GUEST로 주기 위해서 role 빌더값은 Role.GUEST를 사용
     public User toEntity() {
         return User.builder()
                 .name(name)
                 .email(email)
                 .picture(picture)
-                .role(Role.USER)
+                .role(Role.GUEST)
                 .build();
     }
 }
