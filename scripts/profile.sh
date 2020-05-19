@@ -9,19 +9,15 @@ function find_idle_profile()
 
     if [ ${RESPONSE_CODE} -ge 400 ] # 400 보다 크면 (즉, 40x/50x 에러 모두 포함)
     then
-        echo "> 서버가 정상적으로 실행 중이지 않음"
         CURRENT_PROFILE=real2
     else
         CURRENT_PROFILE=$(curl -s http://localhost/profile)
-        echo "> 정상적으로 프로필을 찾음:$CURRENT_PROFILE"
     fi
 
     if [ ${CURRENT_PROFILE} == real1 ]
     then
-      echo "> 현재 프로필 : $CURRENT_PROFILE"
       IDLE_PROFILE=real2
     else
-      echo "> 현재 프로필 : $CURRENT_PROFILE"
       IDLE_PROFILE=real1
     fi
 
