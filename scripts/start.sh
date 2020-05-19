@@ -2,7 +2,7 @@
 
 ABSPATH=$(readlink -f $0)
 ABSDIR=$(dirname $ABSPATH)
-source ${ABSDIR}/prifile.sh
+source ${ABSDIR}/profile.sh
 
 REPOSITORY=/home/ec2-user/app/step3
 PROJECT_NAME=springboot-webservice
