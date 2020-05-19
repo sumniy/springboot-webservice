@@ -14,6 +14,7 @@ public class ProfileController {
 
     private final Environment env;
 
+    // 실행중인 스프링부트의 프로필을 반환해준다.
     @GetMapping("/profile")
     public String profile() {
         List<String> profiles = Arrays.asList(env.getActiveProfiles());
