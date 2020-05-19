@@ -16,3 +16,4 @@
 276p character_set_server도 추가해야할듯 , 설정안하니 collation_server 'utf8mb4_general_ci' is not valid for character_set 'latin1' 에러발생
 
 300p "현재 구동중인" -> "현재 구동 중인"  으로 
+
