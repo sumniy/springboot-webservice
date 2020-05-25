@@ -1,0 +1,26 @@
+{{>layout/header}}
+
+<h1>User Info</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="name">이름</label>
+                <input type="text" class="form-control" id="userName" value="{{userName}}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="email"> 이메일 </label>
+                <input type="text" class="form-control" id="userEmail" value="{{userEmail}}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="picture"> 사진 </label>
+                <img src="{{userPicture}}" id="userPicture" />
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-save">등록</button>
+    </div>
+</div>
+
+{{>layout/footer}}
